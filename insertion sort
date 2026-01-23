@@ -14,8 +14,6 @@ class InsertionSort {
         for (i = 0; i < n; i++) {
             a[i] = sc.nextInt();
         }
-
-        // Insertion Sort
         for (i = 1; i < n; i++) {
             temp = a[i];
             j = i - 1;
@@ -27,8 +25,6 @@ class InsertionSort {
 
             a[j + 1] = temp;
         }
-
-        // Print sorted array
         for (i = 0; i < n; i++) {
             System.out.print(a[i] + " ");
         }
